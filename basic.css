@@ -2,9 +2,10 @@ body
 {
 	font-family: "times new roman";
 	font-size: 20pt;
-	color: #FCA311;
-	background-color: black;
+	color: white;
+	background-color: #7289DA;
 	text-align: center;
+	margin-left: 170px;
 }
 .rift
 {
@@ -15,4 +16,25 @@ body
 .justify
 {
 	text-align:justify;
+}
+ul{
+	font-size: 20pt;
+}
+
+#contents
+{
+	font-size: 20pt;
+}
+#navbar {
+	text-align:left;
+	height: 100%; 
+	width: 165px; 
+	position: fixed; 
+	z-index: 1; 
+	top: 0; 
+	left: 0;
+	background-color: black; 
+	overflow-x: hidden; 
+	padding-top: 20px;
+	color:#FCA311; 
 }
